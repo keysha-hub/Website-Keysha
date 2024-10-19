@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spongebob Foods</title>
+    <!-- link google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet" />
+    <!-- link normalize file  -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- link main style sheet  -->
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <!-- header section starts  -->
+    <header class="header">
+        <a href="#" class="logo"><img src="images/logo.png" alt="" /> </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Reviews</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Cari..." />
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/product-1.jpeg" alt="" width="100">
+                <div class="content">
+                    <h3>Kraby Patty</h3>
+                    <div class="price">Rp. 15.000</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/product-2.jpeg" alt="" width="100">
+                <div class="content">
+                    <h3>Special combo kraby patty</h3>
+                    <div class="price">Rp. 15.000</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/product-3.jpeg" alt="" width="100">
+                <div class="content">
+                    <h3>Cutie patty</h3>
+                    <div class="price">Rp. 15.000</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/product-4.jpeg" alt="" width="100">
+                <div class="content">
+                    <h3>Pizza patty</h3>
+                    <div class="price">Rp. 15.000</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Beli</a>
+        </div>
+    </header>
+    <!-- header section ends  -->
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Krazy Kingdom</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolores delectus aspernatur iusto expedita
+                accusamus adipisci reiciendis, distinctio veritatis corporis placeat reprehenderit fugiat inventore
+                possimus nisi eum necessitatibus vero minus!
+            </p>
+            <!-- <a href="#menu" class="btn">Menu</a> -->
+        </div>
+    </section>
+    <!-- home section ends  -->
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> Us</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/about-img.jpeg" alt="" />
+            </div>
+
+            <div class="content">
+                <h3>Apa yang membuat makanan kami istimewa?</h3>
+                <p>
+                    Cafe Krazy Kingdom adalah restoran ikonik yang terinspirasi dari
+                    dunia kartun SpongeBob SquarePants. Terletak di dasar laut Bikini
+                    Bottom, cafe ini dikenal dengan hidangan utamanya, Krusty Krab
+                    burger, yang legendaris dan konon memiliki rasa yang sangat lezat.
+                    Suasana restoran ini didominasi oleh nuansa bawah laut yang ceria
+                    dan penuh warna, dengan meja-meja yang terbuat dari bahan alami laut
+                    dan dekorasi bertema kehidupan laut.
+                </p>
+                <a href="#" class="btn">Pelajari lebih lanjut</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends  -->
+
+    <!-- menu section starts  -->
+    <section class="menu" id="menu">
+        <h1 class="heading">Menu <span>Kami</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/product-1.jpeg" alt="" />
+                <h3>Kraby patty</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="1" data-harga="15000" data-menu="Kraby patty">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>
+                        <b>Krabby Patty</b> terkenal karena rasanya yang luar biasa, menjadi menu
+                        utama di restoran Krazy Kingdom. Meskipun resep rahasianya tidak
+                        pernah sepenuhnya terungkap, burger ini diyakini terdiri dari
+                        bahan-bahan berkualitas tinggi dan segar. Cita rasa Krabby Patty
+                        sangat kaya dan seimbang. Roti yang lembut dan sedikit garing di
+                        luar, dipadukan dengan patty yang juicy dan lezat. Setiap gigitan
+                        mengeluarkan rasa gurih, asin, dan sedikit manis, memberikan
+                        sensasi yang memanjakan lidah. Topping seperti selada yang segar,
+                        tomat, dan pickles memberikan elemen segar dan renyah. Saus
+                        spesial yang tidak diketahui oleh banyak orang, menambah keunikan
+                        rasa dari Krabby Patty.
+                    </p>
+                    <br>
+                    <b>Komposisi di dalam Krabby Patty:</b>
+                    <ul style="list-style-type: disc; padding: revert;">
+                        <li>Patty daging (atau pengganti nabati dalam versi tertentu)</li>
+                        <li>Roti hamburger yang lembut</li>
+                        <li>Selada segar</li>
+                        <li>Irisan tomat</li>
+                        <li>Acar (pickles)</li>
+                        <li>Saus spesial yang penuh misteri</li>
+                        <li>Keju (kadang-kadang digunakan)</li>
+                        <li>
+                            Bahan pelengkap lain seperti bawang merah atau mayones
+                            (tergantung versi)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class=" box">
+                <img src="images/product-2.jpeg" alt="" />
+                <h3>Special combo kraby patty</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="2" data-harga="15000"
+                    data-menu="Special combo kraby patty">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>
+                        <b>Special Combo Kraby Patty</b> merupakan menu spesial yang menawarkan kombinasi sempurna:
+                        burger
+                        terbaik yang pasti memanjakan lidah, kentang goreng renyah yang tak pernah gagal, dan jus buah
+                        segar yang menyegarkan setiap suapan. Meskipun harganya sedikit lebih tinggi, setiap gigitan
+                        dari menu ini sebanding dengan kualitas dan cita rasanya yang luar biasa, bahkan lebih dari yang
+                        Anda bayangkan. Ditambah lagi, paket combo ini hadir dengan karakter pahlawan super dari serial
+                        Spongebob yang pastinya membuat pengalaman makan Anda semakin menyenankan dan penuh warna.
+                        Jangan lewatkan kesempatan untuk menikmati kombinasi rasa dan keseruan ini!
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/product-3.jpeg" alt="" />
+                <h3>Cutie patty</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="3" data-harga="15000" data-menu="Cutie patty">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>
+                        <b>Cutie Patty</b> adalah versi mini dari Kraby Patty yang dibuat khusus dengan desain super
+                        imut dan menggemaskan. Burger kecil ini dihias dengan senyuman manis dari saus tomat, mata ceria
+                        dari
+                        acar, dan tangan serta kaki yang kreatif menggunakan sedotan minuman. Menu ini sangat disukai
+                        oleh anak-anak karena tampilannya yang lucu dan mengundang tawa, serta porsinya yang pas untuk
+                        anak-anak di bawah umur. Selain menyenangkan, Cutie Patty juga memberikan pengalaman makan yang
+                        seru dan penuh warna bagi si kecil!
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/product-4.jpeg" alt="" />
+                <h3>Pizza patty</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="4" data-harga="15000" data-menu="Pizza patty">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>
+                        <b>Pizza Patty</b> adalah inovasi burger yang menghadirkan cita rasa pizza dalam setiap gigitan.
+                        Di
+                        dalamnya, Anda akan menemukan adonan pizza yang menggugah selera, dipadukan dengan roti patty di
+                        atasnya, menciptakan tampilan yang unik dan menarik. Menu ini mengedepankan kelezatan pizza,
+                        namun dengan sentuhan berbeda yang membuatnya begitu istimewa. Pizza Patty memang salah satu
+                        menu yang jarang ditemukan, menjadikannya pilihan sempurna bagi Anda yang ingin mencoba sesuatu
+                        yang baru dan menggugah selera!
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/product-5.jpeg" alt="" />
+                <h3>Rainbow patty</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="5" data-harga="15000" data-menu="Rainbow patty">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>
+                        <b>Rainbow Patty</b> adalah burger penuh warna yang tidak hanya menarik secara visual, tetapi
+                        juga kaya akan rasa. Setiap lapisan patty yang berwarna memiliki cita rasa uniknya sendiri,
+                        menciptakan kombinasi yang menggugah selera. Dengan warna-warna yang memikat, Anda dapat
+                        menikmati sensasi rasa yang berbeda di setiap gigitannya:
+                    </p>
+                    <br>
+                    <ul style="list-style-type: disc; padding: revert;">
+                        <li>Merah: Rasa kari yang kaya dan pedas </li>
+                        <li>Orange: Rasa mie goreng yang gurih dan menggoda </li>
+                        <li>Kuning: Rasa ramyeon yang khas dan lezat </li>
+                        <li>Hijau: Rasa ayam panggang yang juicy dan memuaskan </li>
+                        <li>Ungu: Rasa terong rebus yang lembut dan segar </li>
+                        <li>Ungu tua: Rasa pasta yang creamy dan menggugah selera </li>
+                    </ul>
+                    <br>
+                    <p>
+                        Rainbow Patty menawarkan pengalaman kuliner yang tak hanya memanjakan mata, tapi juga memuaskan
+                        lidah dengan setiap warna dan rasa yang berbeda!
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/product-6.jpeg" alt="" />
+                <h3>Take away patty</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="6" data-harga="15000" data-menu="Take away patty">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>
+                        <b>Take Away Patty</b> adalah solusi makanan siap saji yang praktis dan lezat, sempurna untuk
+                        dinikmati
+                        di rumah. Makanan ini dirancang agar bisa disimpan di dalam freezer, sehingga tetap awet dan
+                        tidak mudah basi. Proses penyajiannya pun sangat sederhana—cukup hangatkan di microwave, dan
+                        patty siap disantap dengan rasa yang tetap segar dan lezat. Dengan cara ini, Anda bisa menikmati
+                        burger yang nikmat, dengan cita rasa yang tetap terjaga, seperti baru saja dimasak.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/product-7.jpeg" alt="" />
+                <h3>Blueberry pancake</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="7" data-harga="15000" data-menu="Blueberry pancake">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>
+                        <b>Cherry Cake</b> adalah sebuah hidangan penutup yang menggoda, menggabungkan cita rasa manis
+                        dan segar dari buah cherry yang berkualitas tinggi, berpadu harmonis dengan krim rasa vanilla
+                        yang lembut
+                        sebagai pelengkapnya. Setiap gigitan dari kue ini tidak hanya memanjakan lidah, tetapi juga
+                        membangkitkan keinginan untuk mencicipi lebih, seolah-olah satu gigitan saja sudah cukup untuk
+                        membuat siapa pun ingin menikmati sepuluh gigitan lagi.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/product-8.jpeg" alt="" />
+                <h3>SpongeCake</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="8" data-harga="15000" data-menu="SpongeCake">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>
+                        <b>Sponge Cake</b> adalah hidangan penutup yang luar biasa lembut, menawarkan pengalaman rasa
+                        yang tak
+                        tertandingi dengan kehadiran krim keju di dalamnya. Kue ini terbuat dari adonan sederhana yang
+                        dipanggang dengan penuh perhatian, menghasilkan tekstur yang ringan dan mengenyangkan. Kombinasi
+                        rasa manis yang seimbang membuat Sponge Cake menjadi menu favorit di restoran ini. Satu gigitan
+                        saja sudah cukup untuk membuat siapa pun merasa terpesona, seolah-olah menginginkan untuk
+                        membawa pulang kue ini dan menikmatinya berkali-kali di rumah.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/product-9.jpeg" alt="" />
+                <h3>Chocolate candy</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="9" data-harga="15000" data-menu="Chocolate candy">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>
+                        <b>Chocolate Candy</b> adalah permen cokelat yang dirancang dalam bentuk batang, menawarkan
+                        keunikan
+                        tersendiri dengan cita rasa dark chocolate yang tidak terlalu manis, memberikan sensasi langsung
+                        lumer di dalam mulut. Setiap batang mengandung krim manis yang memberikan sedikit rintangan saat
+                        dinikmati, menciptakan pengalaman tekstur yang menyenangkan. Meskipun ada sedikit crunch dari
+                        candy di dalamnya, kombinasi ini tetap mudah untuk dikunyah, menyatu sempurna dengan kelezatan
+                        dark chocolate yang menggoda, membuat setiap gigitan terasa begitu memuaskan dan sulit untuk
+                        ditolak.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/product-10.jpeg" alt="" />
+                <h3>Kelp shake</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="10" data-harga="15000" data-menu="Kelp shake">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>
+                        <b>Kelp Shake</b> merupakan sajian yang tak hanya memanjakan mata tetapi juga menggugah selera.
+                        Dengan
+                        warna hijau cerah yang khas yang terbuat dari rumput laut segar, Kelp Shake menawarkan perpaduan
+                        cita rasa segar dan unik, memancarkan aroma laut yang menggoda. Setiap tegukan memberikan
+                        sensasi creamy yang menyenangkan, dengan rasa manis yang lembut berpadu harmonis dengan sedikit
+                        gurih dari bahan kelp.
+                    </p>
+                    <p>
+                        Keberanian dalam mencampurkan bahan-bahan yang tidak biasa menjadikan Kelp Shake istimewa,
+                        seolah membawa kita merasakan petualangan di dasar laut. Rasanya yang menyegarkan dan sedikit
+                        mengenyangkan membuatnya menjadi pilihan favorit bagi penduduk Bikini Bottom.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/product-11.jpeg" alt="" />
+                <h3>Orange fresh</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="11" data-harga="15000" data-menu="Orange fresh">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>
+                        <b>Orange Fresh</b> adalah minuman musim panas yang menyegarkan dan siap memberikan keceriaan
+                        dalam
+                        setiap tegukan. Dengan perpaduan sempurna antara jeruk manis dan lemon segar, minuman ini tidak
+                        hanya memanjakan lidah, tetapi juga memberikan sensasi sejuk yang langsung mengalir ke
+                        tenggorokan. Warna cerahnya yang menggoda membuatnya sangat menarik untuk dilihat, sementara
+                        rasa asam dan manis yang harmonis mampu menyegarkan pikiran dan tubuh. Setiap gelas Orange Fresh
+                        adalah oasis yang ideal untuk mengusir panas, menjadikannya pilihan sempurna untuk menikmati
+                        hari-hari cerah.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/product-12.jpeg" alt="" />
+                <h3>Ice (slurp)</h3>
+                <div class="price">Rp. 15.000 <span>Rp. 20.000</span></div>
+                <button class="btn btn-menu-detail" data-id="12" data-harga="15000" data-menu="Ice (slurp)">
+                    Detail
+                </button>
+                <div class="detail-text">
+                    <p>Tidak ada detail</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu section ends  -->
+
+    <!-- review section starts  -->
+    <section class="review" id="review">
+        <h1 class="heading">Review <span>Pelanggan</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote" />
+                <p>"Wow, saya baru saja mencoba Spesial Combo Kraby Patty dan Chocolate Candy, dan rasanya luar biasa!
+                    Kraby Patty-nya benar-benar lezat, patty-nya empuk dan bumbu khasnya memberikan rasa yang unik dan
+                    menggugah selera.
+                    Untuk dessert-nya, Chocolate Candy-nya juga tak kalah menggoda! Cokelatnya kaya rasa, manisnya pas,
+                    dan teksturnya yang lembut membuat saya ingin nambah lagi!"</p>
+                <img src="images/pic-1.jpeg" class="user" alt="" />
+                <h3>Bubble Bass</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote" />
+                <p>"Burger Pizza-nya benar-benar luar biasa. Roti burger yang empuk dipadukan dengan topping pizza yang
+                    kaya rasa, seperti makan burger dan pizza sekaligus dalam satu gigitan. untuk Kelp Shake-nya, saya
+                    agak ragu pada awalnya, tapi ternyata enak! Rasa kelp-nya terasa segar, dan meskipun agak berbeda,
+                    justru memberi sentuhan unik yang menyegarkan. Rasanya tidak terlalu dominan, jadi cocok banget
+                    untuk melengkapi makan berat seperti Burger Pizza."</p>
+                <img src="images/pic-2.jpeg" class="user" alt="" />
+                <h3>Kevin Si Timun</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote" />
+                <p>"Sponge cake yang saya coba benar-benar luar biasa! Teksturnya sangat lembut dan ringan, seolah-olah
+                    meleleh di mulut. Rasa manisnya pas, tidak terlalu kuat, dan tidak membuat enek. Kelembutan adonan
+                    yang sempurna membuat setiap gigitan terasa nyaman. Saya juga menyukai tampilan cake-nya yang cantik
+                    dan menggiurkan. Ini cocok untuk segala acara, baik itu santai di rumah atau perayaan spesial. Pasti
+                    akan beli lagi!"</p>
+                <img src="images/pic-3.jpeg" class="user" alt="" />
+                <h3>Dirty Bubble</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section ends  -->
+
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Hubungi</span> Kami</h1>
+
+        <div class="row">
+            <div class="iframe">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d140383.06084013506!2d165.28095379052257!3d11.598634548380675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x644c2180a24fadbf%3A0x4c3f21ce9753a027!2sAtol%20Bikini!5e0!3m2!1sid!2sid!4v1729144049825!5m2!1sid!2sid"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form action="">
+                <h3>Kontak</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Nama" />
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="Email" />
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="Nomor Telepon" />
+                </div>
+                <input type="submit" value="Submit" class="btn" />
+            </form>
+        </div>
+    </section>
+    <!-- contact section ends  -->
+
+    <!-- blogs section starts  -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Blog <span>Kami</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.jpeg" alt="" />
+                </div>
+                <div class="content">
+                    <a href="#" class="title">impressive taste of kraby patty </a>
+                    <span> By admin / 3 June 2024</span>
+                    <p>
+                        Krazy Kingdom mengusung tema yang ceria dan penuh warna, terinspirasi dari dunia kartun.
+                    </p>
+                    <button class="btn btn-blog-detail" data-id="1" data-judul="Impressive taste of kraby patty">Detail
+                        Lebih Lanjut</button>
+                    <div class="detail-text">
+                        <p>
+                            Jika kamu seorang penggemar kuliner yang unik dan berani, Krazy Kingdom adalah destinasi
+                            yang wajib dikunjungi. Terletak di jantung kota, restoran ini menawarkan pengalaman makan
+                            yang tidak hanya menggugah selera, tetapi juga membawa kita kembali ke masa kecil dengan
+                            menyajikan Kraby Patty yang terkenal.
+                        </p>
+                        <br>
+                        <p>
+                            Krazy Kingdom mengusung tema yang ceria dan penuh warna, terinspirasi dari dunia kartun.
+                            Interior restoran ini dihiasi dengan karakter-karakter lucu dan mural yang menggambarkan
+                            suasana laut yang menyenangkan. Setiap sudutnya menciptakan atmosfer yang mengundang tawa
+                            dan kebahagiaan, membuat setiap kunjungan terasa seperti petualangan.
+                        </p>
+                        <br>
+                        <p>
+                            Krazy Kingdom bukan hanya sekadar restoran; ini adalah pengalaman kuliner yang menyenangkan.
+                            Dengan menu yang variatif dan suasana yang ceria, setiap kunjungan ke sini adalah kesempatan
+                            untuk menikmati makanan lezat sambil mengingat kembali momen-momen berharga dari masa kecil.
+                            Jadi, ajak teman-temanmu dan jadikan Krazy Kingdom sebagai tempat makan favoritmu!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-2.jpeg" alt="" />
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Save extraordinary memories with Kraby Patty</a>
+                    <span> By admin / 6 June 2024 </span>
+                    <p>
+                        Krazy Kingdom didirikan pada tahun 2010 oleh sekelompok penggemar kuliner yang memiliki visi
+                        untuk menciptakan restoran yang tidak hanya menyajikan makanan lezat.
+                    </p>
+                    <button class="btn btn-blog-detail" data-id="2"
+                        data-judul="Save extraordinary memories with Kraby Patty">Detail Lebih Lanjut</button>
+                    <div class="detail-text">
+                        <p>
+                            Krazy Kingdom didirikan pada tahun 2010 oleh sekelompok penggemar kuliner yang memiliki visi
+                            untuk menciptakan restoran yang tidak hanya menyajikan makanan lezat, tetapi juga pengalaman
+                            bersantap yang menyenangkan. Terinspirasi oleh dunia kartun dan karakter ikonik, mereka
+                            menciptakan konsep yang unik dan ceria, menjadikan Krazy Kingdom sebagai tempat yang menarik
+                            bagi semua kalangan, terutama anak-anak dan keluarga.
+                        </p>
+                        <br>
+                        <p>
+                            Sejak awal, fokus utama Krazy Kingdom adalah Kraby Patty, yang terinspirasi dari hidangan
+                            terkenal di dunia kartun. Dengan resep rahasia yang diturunkan dari generasi ke generasi,
+                            setiap patty disiapkan dengan cermat menggunakan bahan-bahan berkualitas tinggi. Seiring
+                            berjalannya waktu, menu diperluas dengan berbagai variasi Kraby Patty, pilihan vegetarian,
+                            dan menu pendamping yang menggoda, memastikan ada sesuatu untuk setiap selera.
+                        </p>
+                        <br>
+                        <p>
+                            Krazy Kingdom berhasil menarik perhatian pengunjung melalui strategi pemasaran yang kreatif.
+                            Mereka aktif di media sosial, mengadakan promosi menarik, dan bahkan menyelenggarakan acara
+                            khusus untuk anak-anak, seperti pesta ulang tahun dengan tema kartun. Keterlibatan komunitas
+                            juga menjadi fokus, dengan program donasi dan kolaborasi dengan sekolah-sekolah setempat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blogs section ends  -->
+
+    <!-- footer section starts  -->
+    <section class="footer">
+        <div class="share">
+            <!-- <a href="#" class="fab fa-facebook-f"></a> -->
+            <a href="https://www.instagram.com/keyshaaajp?igsh=M2pldHR3dmR6Z2E=" class="fab fa-instagram"></a>
+            <a href="https://youtu.be/T9GlmMEBV3k?feature=shared" class="fab fa-youtube"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Reviews</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </div>
+
+        <span class="credit">Cafe Krazy Kingdom</span>
+    </section>
+    <!-- footer section ends  -->
+
+    <!-- link file javaScript  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/sweetalert2.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".btn-menu-detail").click(function () {
+                const id = $(this).data("id");
+                const nama = $(this).data("menu");
+                const harga = new Intl.NumberFormat("id-ID", {
+                    style: "currency",
+                    currency: "IDR",
+                }).format($(this).data("harga"));
+                const detail = $(this).next().html();
+
+                Swal.fire({
+                    title: "Detail Menu",
+                    width: 600,
+                    padding: "3em",
+                    imageUrl: `images/product-${id}.jpeg`,
+                    imageWidth: 600,
+                    imageHeight: 300,
+                    imageAlt: nama,
+                    html: detail,
+                    background: "var(--bg)",
+                    color: "var(--text-color)",
+                    showClass: {
+                        backdrop: "detail-popup",
+                    },
+                    showCloseButton: true,
+                });
+            });
+
+            $(".btn-blog-detail").click(function () {
+                const id = $(this).data("id");
+                const judul = $(this).data("judul");
+                const detail = $(this).next().html();
+                Swal.fire({
+                    title: judul,
+                    width: 600,
+                    padding: "3em",
+                    imageUrl: `images/blog-${id}.jpeg`,
+                    imageWidth: 600,
+                    imageHeight: 300,
+                    imageAlt: "Blog",
+                    html: detail,
+                    background: "var(--bg)",
+                    color: "var(--text-color)",
+                    showClass: {
+                        backdrop: "detail-popup",
+                    },
+                    showCloseButton: true,
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
